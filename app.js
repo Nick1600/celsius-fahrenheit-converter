@@ -9,9 +9,6 @@ const tempInput = process.argv[2];
 const unit = process.argv[3].toLowerCase();
 
 const convert = (temperature, unitInput) => {
-
-
-    
     const tempFahrenheitResult = celsiusToFahrenheit(tempInput);
     const tempCelsiusResult = fahrenheitToCelsius(tempInput);
 
